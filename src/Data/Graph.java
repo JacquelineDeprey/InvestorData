@@ -99,23 +99,6 @@ public class Graph<E> {
 
 		return toReturn;
 	}
-	
-	private class Company{
-		
-		String name;
-		Set<Company> investors;
-		Set<Company> investments;
-		
-		/*can include other fields like company type, size, location, etc. if wanted*/
-	}
-	
-	private class Investment{
-
-		double amount;
-		Company investee; //will link to company that is receiving the money
-		Company investor; //will link to company that is spending the money
-		
-	}
 
 	/*Functions Needed: addCompany, addInvestment*/
 }
